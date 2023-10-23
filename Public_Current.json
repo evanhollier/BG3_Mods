@@ -1,0 +1,224 @@
+{
+  "Order": [
+    {
+      "UUID": "ee606255-e4a4-496a-8497-1ca38af7d3fb",
+      "Name": "Golden Death Dice"
+    },
+    {
+      "UUID": "4b774210-0459-4502-a56b-c86b5089cbed",
+      "Name": "DiceSet_HQ_Black_Silver"
+    },
+    {
+      "UUID": "11b553fb-dfab-4d55-ad9c-0362f3056711",
+      "Name": "DiceSet_HQ_Black_Gold"
+    },
+    {
+      "UUID": "b7b18861-f156-47b4-9930-9894b3fa5b13",
+      "Name": "DiceSet_HQ_Black_Pink"
+    },
+    {
+      "UUID": "f3ba4190-c5c1-453a-be80-9c55414fab5a",
+      "Name": "DiceSet_HQ_Classic_All_Gold"
+    },
+    {
+      "UUID": "fdbc2282-9c00-4f69-b3dc-202f1f2d5e91",
+      "Name": "DiceSet_HQ_Classic_All_Silver"
+    },
+    {
+      "UUID": "ad40cd1b-5f3e-4f1b-8a86-8817477c5b3c",
+      "Name": "DiceSet_HQ_Classic_Black"
+    },
+    {
+      "UUID": "fc5bcea4-2094-4c93-ae6b-291fe5ed240f",
+      "Name": "DiceSet_HQ_Classic_White"
+    },
+    {
+      "UUID": "83b4e98f-28b3-4e75-915d-4cf795ec2b74",
+      "Name": "Customizer"
+    },
+    {
+      "UUID": "405c762d-8f07-4b91-a1ef-d58a9ec2a0a0",
+      "Name": "Toarie's New Character Creation Presets WIP"
+    },
+    {
+      "UUID": "da0b99ca-4406-49c1-bef9-3a08621280a2",
+      "Name": "Tav's Hairpack"
+    },
+    {
+      "UUID": "525600ac-ca07-4745-a5bc-0a620975e2f3",
+      "Name": "ASTRL Hair Colors"
+    },
+    {
+      "UUID": "504a59f6-3ca0-4750-920b-4cf6f6570895",
+      "Name": "Luthic's Chosen - Female Half-Orc Preset"
+    },
+    {
+      "UUID": "a9e98a1f-7a59-4b70-be39-1f69924c0b80",
+      "Name": "BasketEquipmentNSFW"
+    },
+    {
+      "UUID": "cffcf7ef-0b83-4ece-ad06-12a32f93e982",
+      "Name": "BasketEquipmentCampClothing"
+    },
+    {
+      "UUID": "ee840094-8033-4fe7-adaa-83fb0e021988",
+      "Name": "BasketEquipmentUnderwearSlot"
+    },
+    {
+      "UUID": "dda8a8ec-3717-11ee-be56-0242ac120002",
+      "Name": "ChangeCampArmor"
+    },
+    {
+      "UUID": "bad404aa-feed-a0ee-9999-feedfeed0004",
+      "Name": "Food Supplies Zero Weight"
+    },
+    {
+      "UUID": "bad404aa-feed-a0ee-9999-feedfeed0009",
+      "Name": "Alchemy Ingredients Zero Weight"
+    },
+    {
+      "UUID": "bad404aa-feed-A0Ea-6666-deeeeeeeeeef",
+      "Name": "Books Notes Zero Weight"
+    },
+    {
+      "UUID": "GOLDWEIG-HTZE-RO12-4444-deeeeeeeeeef",
+      "Name": "Gold Weight Zero"
+    },
+    {
+      "UUID": "LONGSTRI-DERA-OE12-4444-deeeeeeeeeef",
+      "Name": "Longstrider AoE"
+    },
+    {
+      "UUID": "7d2db89f-5274-417c-88e7-f2438c6ce343",
+      "Name": "Permanent Longstrider"
+    },
+    {
+      "UUID": "5593c5cd-b273-4048-ae87-635c1d487a5e",
+      "Name": "JWL Crafting Framework"
+    },
+    {
+      "UUID": "105731d3-4142-4015-bd5a-3891ab9d7ee1",
+      "Name": "JWL Soul Smithing - Upgrade Your Gear"
+    },
+    {
+      "UUID": "b6957275-c243-46b1-a934-4965afd1b18d",
+      "Name": "PhalarBuff"
+    },
+    {
+      "UUID": "73bfccac-270d-4c20-abb4-3c5687f1fdba",
+      "Name": "PolearmMasterWithTrident"
+    },
+    {
+      "UUID": "75edc3ad-46ec-4de2-9ebe-dc972a31f24f",
+      "Name": "Weapon Balance Overhaul"
+    },
+    {
+      "UUID": "30bb44fe-6286-48ef-a246-5e195576972b",
+      "Name": "d8Scimitar"
+    },
+    {
+      "UUID": "3e158fb8-686e-4153-9430-e27f4b9fb7f8",
+      "Name": "BagsBagsBags"
+    },
+    {
+      "UUID": "0a94f52f-d569-4b43-b813-8b6ca5c1815a",
+      "Name": "JWL Grym's Mithral (1)"
+    },
+    {
+      "UUID": "505c630c-79fa-49b6-9f21-29a5f2322c2d",
+      "Name": "TutorialChestSummoning"
+    },
+    {
+      "UUID": "45340395-9280-44ac-8d6c-a99f28a3bb5b",
+      "Name": "Speak with Dead Rework - Damaged Corpse Version"
+    },
+    {
+      "UUID": "3454f90a-c28e-4d97-91f0-49f610abf4d3",
+      "Name": "Slayer Improved"
+    },
+    {
+      "UUID": "73f43c7f-e9a9-4a2d-89bf-407eff6c965a",
+      "Name": "TheDisgustingHair"
+    },
+    {
+      "UUID": "bad404aa-feed-a0ee-9999-feedfeed0005",
+      "Name": "Shower More - Dirt and Blood, Timer and Active"
+    },
+    {
+      "UUID": "1d6ece6c-b9e1-430e-8263-7d223a78LBLD",
+      "Name": "Less Blood and Dirt"
+    },
+    {
+      "UUID": "bad404aa-feed-a0ee-9999-feedfeed0002",
+      "Name": "Everybody Dyes Unlimited Dyeing."
+    },
+    {
+      "UUID": "88888888-4444-4444-4444-UnvisualVolosEye",
+      "Name": "Unvisual Volo's Eye"
+    },
+    {
+      "UUID": "14cacf8e-fe3c-48b7-ac3f-23165371df26",
+      "Name": "Guidance Enhanced - B"
+    },
+    {
+      "UUID": "e381be55-666f-458c-81d6-5b6d2c3b84b4",
+      "Name": "TransmutersStoneFix"
+    },
+    {
+      "UUID": "3cd8935e-35dc-4ad6-987b-8cf667900402",
+      "Name": "Persist Bind Pact Weapon"
+    },
+    {
+      "UUID": "bad404aa-feed-a0ee-8888-feedfeed0001",
+      "Name": "Warlock Multiclass Bug Fix and Workaround"
+    },
+    {
+      "UUID": "bad404aa-feed-a0ee-8888-feedfeed0003",
+      "Name": "Lockadin Bug Fix"
+    },
+    {
+      "UUID": "985a1b05-6f7d-4c57-89ca-e24003435ea7",
+      "Name": "LOR_allhotbar"
+    },
+    {
+      "UUID": "21bc0eb4-1692-4726-bb29-7ad292c54636",
+      "Name": "AuraOfHateTweak"
+    },
+    {
+      "UUID": "4335cad8-7dfa-446c-a719-28cfb050aef6",
+      "Name": "Feat ASI Fix"
+    },
+    {
+      "UUID": "2ca2f0bb-1f78-4f04-b911-edd0b9a02bef",
+      "Name": "BleedBuff"
+    },
+    {
+      "UUID": "9f0d2205-80cf-4092-bfdc-320af9a2a11e",
+      "Name": "Mors_Produce_Flame"
+    },
+    {
+      "UUID": "168bb308-ecae-455a-ad49-e37c999b96d8",
+      "Name": "ChampionRework"
+    },
+    {
+      "UUID": "e4d6c90b-e645-40f2-bc29-9280f8c60064",
+      "Name": "Quiver"
+    },
+    {
+      "UUID": "e83b1cf1-a381-4f9a-a93c-2200731c9a61",
+      "Name": "ArrowsOverHaul"
+    },
+    {
+      "UUID": "ac6e8381-3003-4a91-89b5-9cdbee38879b",
+      "Name": "QuiverForArrowsOverhaul"
+    },
+    {
+      "UUID": "d903677e-f24b-48ec-ab20-98dab116a371",
+      "Name": "Weapon Skill Cooldown"
+    },
+    {
+      "UUID": "6ef804ed-1dd0-4f97-9cf7-5e29a51829ca",
+      "Name": "TacticianPlusHealth"
+    }
+  ]
+}
