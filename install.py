@@ -11,6 +11,7 @@ import os
 import zipfile
 import sys
 import datetime
+import shutil
 
 def mods():
     url = "https://drive.google.com/uc?export=download&id=18TEcqs01IAJxqG0z1B4PttfelCk8lPov"
@@ -20,6 +21,13 @@ def mods():
     print("Mods.zip downloaded.")
 
     destination_directory = os.path.join(os.environ['LOCALAPPDATA'], 'Larian Studios', "Baldur's Gate 3", 'Mods')
+
+    # Clean out old mods
+    files = os.listdir(destination_directory)
+    for file in files:
+        file_path = os.path.join(destination_directory, file)
+        if os.path.isfile(file_path):
+            os.remove(file_path)
 
     with zipfile.ZipFile(file_name, 'r') as zip_ref:
         zip_ref.extractall(destination_directory)
@@ -41,6 +49,14 @@ def data(a):
         print(f"{file_name} exists in the current working directory. Extracting to BG3/Data...")
 
         destination_directory = r'C:\Program Files (x86)\Steam\steamapps\common\Baldurs Gate 3\Data'
+
+        # Clean out old mods
+        subfolders_to_delete = ['Generated', 'Public', 'Video']
+        for subfolder in subfolders_to_delete:
+            subfolder_path = os.path.join(destination_directory, subfolder)
+            if os.path.exists(subfolder_path):
+                shutil.rmtree(subfolder_path)
+
 
         with zipfile.ZipFile(file_name, 'r') as zip_ref:
             zip_ref.extractall(destination_directory)
