@@ -10,6 +10,7 @@ import urllib.request
 import os
 import zipfile
 import sys
+import datetime
 
 def mods():
     url = "https://drive.google.com/uc?export=download&id=18TEcqs01IAJxqG0z1B4PttfelCk8lPov"
@@ -83,6 +84,20 @@ def big(a):
             sys.exit()
     print()
 
+def stamp():
+    # Remove previous stamp() files
+    files = os.listdir()
+    for file in files:
+        if file.startswith("UPDATED") and file.endswith(".txt"):
+            os.remove(file)
+
+    # Create a txt with date install.exe was run
+    current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+    file_name = f"UPDATED_{current_date}.txt"
+
+    with open(file_name, "w") as file:
+        pass
+
 
 def main():
     mods()
@@ -90,4 +105,8 @@ def main():
 
     data(0)
     big(0)
+   
+    stamp()
+    print("Done.")
+
 main()
