@@ -27,12 +27,14 @@ for filename in os.listdir(directory_path):
 shutil.make_archive('Mods', 'zip', smaller_files_dir)
 
 # Zip large files = everything except "small" subfolder
-with zipfile.ZipFile('Big_Mods.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
-    for root, dirs, files in os.walk(directory_path):
-        if root != smaller_files_dir:
-            for file in files:
-                file_path = os.path.join(root, file)
-                archive.write(file_path, os.path.relpath(file_path, directory_path))
+def big():
+    with zipfile.ZipFile('Big_Mods.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
+        for root, dirs, files in os.walk(directory_path):
+            if root != smaller_files_dir:
+                for file in files:
+                    file_path = os.path.join(root, file)
+                    archive.write(file_path, os.path.relpath(file_path, directory_path))
+# big()
 
 # Move the contents of  "small" back
 for filename in os.listdir(smaller_files_dir):

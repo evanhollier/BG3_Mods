@@ -4,7 +4,7 @@ import zipfile
 
 source_directory = r'C:\Program Files (x86)\Steam\steamapps\common\Baldurs Gate 3\Data'
 
-directories_to_zip = ['Generated', 'Public', 'Video']
+directories_to_zip = ['Generated', 'Public']
 
 destination_directory = os.getcwd()
 
@@ -16,4 +16,4 @@ with zipfile.ZipFile(os.path.join(destination_directory, 'Data.zip'), 'w', zipfi
                 file_path = os.path.join(root, file)
                 archive.write(file_path, os.path.relpath(file_path, source_directory))
 
-# This will create Data.zip containing Generated, Public, Video from BG3/Data.
+# This will create Data.zip containing Generated, Public from BG3/Data.
